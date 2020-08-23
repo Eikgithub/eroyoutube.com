@@ -103,10 +103,6 @@ body{
   width: 100%;
   z-index: -999;
 }
-/*/              Homepage Design             /*/
-
-/*                     Section 2                          */
-
 .section_2 h1 {
   font-family: var(--bungee);
   font-size: 6vmin;
@@ -171,14 +167,14 @@ body{
   left: 76%;
 }
 
-/*          Progress bar Coloring                 */
 
 .section_2 .progress-one .progress-bar {
   background: var(--tomato-color);
 }
 
 .section_2 .progress-two .progress-bar {
-  background: var(--lime-color);
+ background: var(--lime-color);
+ 
 }
 
 .section_2 .progress-three .progress-bar {
@@ -203,12 +199,9 @@ body{
   padding-bottom: 5vmin;
 }
 
-/*/                   Section 2                   /*/
-
-/*                      Section 3                         */
 
 .section_3 {
-  background: #f7ff00; /* fallback for old browsers */
+  background: #f7ff00; 
   background: linear-gradient(to left, #db36a4, #f7ff00);
   margin-bottom: 4vmin;
 }
@@ -245,11 +238,6 @@ body{
 .section_3 .images .flex-fill img:hover {
   width: 180%;
 }
-
-
-
-
-/*                        Section 4                         */
 
 .section_4 .services h1 {
   font-family: var(--bungee);
@@ -289,8 +277,6 @@ body{
 .section_4 {
   margin-bottom: 5em;
 }
-
-/*                      Section 5                 */
 .section_5 {
   background: #833ab4;
   background: -webkit-linear-gradient(to left, #fcb045, #fd1d1d, #833ab4);
@@ -349,7 +335,6 @@ body{
   padding-bottom: 10vmin;
 }
 
-/*                        Section 7                       */
 
 .section_6 {
   padding: 16vmin 2vmin;
